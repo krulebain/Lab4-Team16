@@ -1,3 +1,5 @@
+package chess.figures;
+
 public class Rook extends Figure {
     public Rook(){}
     public Rook(String name, String color, int column, int row){
@@ -6,7 +8,7 @@ public class Rook extends Figure {
 
     @Override
     public String toString() {
-        return name + " " + color + " " + column + "" + row;
+        return piece_name + " " + color + " " + column + "" + row;
     }
 
     @Override
