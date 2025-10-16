@@ -1,4 +1,6 @@
-import interfaces.*;
+package chess.figures;
+
+import chess.interfaces.IntFigure;
 
 public abstract class Figure implements IntFigure {
     protected int row;
@@ -15,4 +17,14 @@ public abstract class Figure implements IntFigure {
         this.row = row;
     }
     
+    public String getColor() {
+        return color;
+    }
+    public int getColumn() { 
+        return column; 
+    }
+    public int getRow() {
+        return row; 
+    }
+
 }
